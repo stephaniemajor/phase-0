@@ -1,5 +1,7 @@
 
-![My Site Map](site-map.jpg)
+![My Site Map](~/phase-0/week-2/imgs/site-map.jpg)
+<a href="imgs/site-map.jpg">My Site Map</a>
+<img src="/phase-0/week-2/imgs/site-map.jpg">
 
 <p>What are the 6 Phases of Web Design?</p>
 <ol>
@@ -22,7 +24,7 @@
 <p> The user’s experience is influenced by usability, navigation, accessibility. These 3 characteristic are created by the web designer.</p>
 <p>What is user experience design and why is it valuable? </p>
 <p>The success of a website depends on the user’s perception. The user’s perception depends on the design of the website. The perception will be based on ease of use, pleasant to use, utility, efficiency</p>
-<p>Which parts of the challenge did you find tedious? Dealing with markdown. Converting my scanned image into a jpg file.</p>
+<p>Which parts of the challenge did you find tedious? Dealing with markdown. Converting my scanned image into a jpg file.   couldn't find why my image wouldn't copy on my md file.</p>
 
 
 
