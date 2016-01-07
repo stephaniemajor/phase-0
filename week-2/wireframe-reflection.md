@@ -1,5 +1,5 @@
-![wireframe index](wireframe-index.png)<br/>
-![wireframe blog](wireframe-blog-index.png)
+![wireframe index](imgs/wireframe-index.PNG)<br/>
+![wireframe blog](imgs/wireframe-blog-index.PNG)
 <p>What is a wireframe? It defines the info hierarchy of the design. It give a placement for the data and buttons</p>
 <p>What are the benefits of wireframing? It doesn’t distract you about colors, font. You spend time focusing on the skeleton without the dressing…</p>
 <p>Did you enjoy wireframing your site? I am not there yet </p>
