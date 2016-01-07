@@ -1,7 +1,7 @@
 
-![My Site Map](~/phase-0/week-2/imgs/site-map.jpg)
+![My Site Map](imgs/site-map.jpg)
 <a href="imgs/site-map.jpg">My Site Map</a>
-<img src="/phase-0/week-2/imgs/site-map.jpg">
+<img src="imgs/site-map.jpg">
 
 <p>What are the 6 Phases of Web Design?</p>
 <ol>
