@@ -1,7 +1,7 @@
 Pairing session – Positioning with Chrome’s dev Tools
 
 Change the color
- <img src="imgs/1-Color.png" alt="color image">
+ <img src="imgs/1-Color.PNG" alt="color image">
 Column
  
 Row
