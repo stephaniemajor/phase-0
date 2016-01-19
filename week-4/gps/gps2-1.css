@@ -1,3 +1,51 @@
-html    {
-    background-color:red;
+header {
+   background-color:purple;
+   font:Verdana;
+ }
+ header h1 {
+   display:block;
+   color: white;
+   margin-left:3em;
+ }
+ header p {
+   padding:1%;
+   margin-top:1em;
+   color:white;
+   background-color:violet;
+ }
+.column-1 {
+   float:left;
+   display:inline-table;
+   margin-left:3%;
+   width:45%;
+}
+.column-2 {
+    float:right;
+    margin-left:3%;
+    width:45%;
+    display:inline-table;
+}
+article h2 {
+    margin-bottom:0px;
+    padding:0px;
+}
+
+article p {
+    display:table-row-group;
+    margin-top:0px;
+    margn-bottom:5em;
+    padding:2em;
+}
+article details summary code{
+  display:inline-block;
+  background-color : #dadfed;
+  width: 75%;
+  padding : 1%;
+  
+}
+footer {
+    float:left;
+    clear:both;
+    padding:3em;
+    
 }
