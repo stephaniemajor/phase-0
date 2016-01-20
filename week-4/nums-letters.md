@@ -49,3 +49,9 @@ end
 
 puts minutes_in_decade
 
+<h4> here are the links for the other exercices in ruby</h4>
+  <ul>
+    <li><a href="https://github.com/stephaniemajor/phase-0/blob/master/week-4/defining-variables.rb"> Defining Variables </a></li>
+    <li><a href="https://github.com/stephaniemajor/phase-0/blob/master/week-4/simple-string.rb"> Simple String </a></li>
+    <li><a href="https://github.com/stephaniemajor/phase-0/blob/master/week-4/basic-math.rb"> Basic Math</a></li>
+  </ul>
