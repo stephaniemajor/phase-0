@@ -29,7 +29,7 @@
 
 
 
-def mode(nbr_array)
+def old_mode(nbr_array)
     # create a new hash with values set as zero
     count_hash = Hash.new(0)
    
@@ -54,17 +54,46 @@ def mode(nbr_array)
 end
 
 nbr_array=[1,2,3,3]
-puts mode(nbr_array)
+puts old_mode(nbr_array)
 
 #do an iteration to see an the value =1
 
 
 # 3. Refactored Solution
-#Did not have time to work on it
 
+def mode(nbr_array)
+    # create a new hash with values set as zero
+    count_hash = Hash.new(0)
+   
+    #update the quantity
+    nbr_array.each { |key| count_hash[key] += 1 }
+   
+    # find the highest count in our hash  and return an array with all keys that have the highest value
+    pairs = count_hash.find_all {|key,q| 
+        q == count_hash.values.max
+    } 
+    
+    # return the key values for the max quantity
+    return pairs.map {|array| array[0]}
+end
 
 
 # 4. Reflection
 # This was a difficult assignment for us. We are having difficulty to reason the problem and breakit down into pieces. 
 # the upside of this one is that I learned to work with irb more. 
 # I am, perswonally, coming from a long way in this, but today, I feel I have done a few steps forward.
+# Which data structure did you and your pair decide to implement and why?
+
+# We decided to create a hash then give each key a value for its frequency.
+
+# Were you more successful breaking this problem down into implementable pseudocode than the last with a pair?
+
+# It was easier after we broke it down into pseudocode but still difficult to get the correct answer.
+
+# What issues/successes did you run into when translating your pseudocode to code?
+
+# We were having issues running into syntax and correct implementation of keys and values and the output of the results.
+
+# What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement?
+
+# We used .each .map and .find_all. All of these were difficult to implement through the code.
