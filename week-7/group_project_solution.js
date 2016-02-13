@@ -1,12 +1,38 @@
 // Add the finished solution here when you receive it.
+var sum = function(list) {
+  var result = 0;
+  for (var index = 0 ; index < list.length; index++) {
+    result += list[index];
+  }
+  return result;
+};
 
+console.log(sum([1,2,3,4,5,5,7]));
 
+var mean = function(list) {
+    var result = sum(list)/list.length;
+  return  result;
+};
+console.log(mean([1,2,3,4,5,5,7]));
 
+var median = function(numbers) {
+  var max = numbers[0];
+  var min = numbers[0];
 
+  for (var i = 1; i < numbers.length; i ++) {
+    if (numbers[i] > max) {
+      max = numbers[i];
+    }
+    
+    if (numbers[i] < min) {
+      min = numbers[i];
+    }
+  }
 
-
-
-
+  var result = (max + min) / 2;
+  return result;
+};
+console.log(median([1,2,3,4,5,6])); 
 
 
 // Megan Swanby- User Stories- Person 1
@@ -53,6 +79,51 @@
 //Return the result   
 
 
+
+
+
+
+
+//Thomas Farr - refactor and user stories
+// As a user, I want to input a multitude of numbers and receive the sum of those numbers.
+
+function sum(numbers) {
+  var result = 0;
+
+  for (var i = 0; i < numbers.length; i ++) {
+    result += numbers[i];
+  };
+
+  return result;
+}
+
+// As a user, I want to find the average of a set of numbers. To do this I'll need to get the sum of the numbers and divide the sum by the amount of numbers I put in.
+
+function mean(numbers, sum) {
+  var result = sum / (numbers.length);
+  return result;
+}
+
+// As a user, I want to input numbers and have them sorted. Once they are sorted I want to have the number that occurs in the middle of the pack of the numbers be returned to me. If there are an even number of numbers I put in, I'll want the two middle numbers to be added together and divided to find the average of those two numbers.
+
+function median(numbers) {
+  var result = (max - min) / 2;
+  var max = numbers[0];
+  var min = numbers[0];
+
+  for (var i = 1; i < numbers.length; i ++) {
+    if (numbers[i] > max) {
+      max = numbers[i];
+    }
+  }
+
+  for (var j = 1; j < numbers.length; j ++) {
+    if (numbers[j] < min) {
+      min = numbers[j];
+    }
+  }
+
+  return result;
 
 
 
