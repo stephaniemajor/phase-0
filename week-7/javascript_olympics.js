@@ -82,3 +82,14 @@
 // It has the “this” part with each of the properties. I didn’t really get it.
 // •	How are constructors different from Ruby classes (in your research)?
 // The “this” is additional. 
+// Reflection solo 7.7 2-13-16
+// •	What was the most difficult part of this challenge?
+// To figure out how much we should do this on our own or to get inspired by the example given.then I saw that the game was pretty much the same as the example, I decided to go for the full inspirational while trying to think how to do it myself.
+// •	What did you learn about creating objects and functions that interact with one another? My solution wasn’t working because I had created the variable frog independently. 
+// I saw in the example provided that the variable had the function within it. This is odd to me. I would like to hear more about it.
+// •	Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do they work?
+// I had found the random method on my very first research.
+// •	How can you access and manipulate properties of objects?
+// By calling the variable and the method related to it
+// •	Are there topics you are still struggling with?
+// Yes, the literal vs the constructor version
