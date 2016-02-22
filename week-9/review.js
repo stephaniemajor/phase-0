@@ -33,8 +33,8 @@ bingoBoard.check = function(bingoCall) {
 
   // If the number is in the column, replace with an 'x'  
   for (var row = 0; row < this.board.length; row++) {
-    if (bingoBoard.board[row][column] == number) {
-       bingoBoard.board[row][column] = "X";
+    if (this.board[row][column] == number) {
+       this.board[row][column] = "X";
     }
   }
 };
@@ -50,3 +50,14 @@ bingoBoard.board;
 
 
 // #Reflection
+// •	What concepts did you solidify in working on this challenge? 
+// The for loop. The naming convention. The if function in JavaScript
+
+// •	What was the most difficult part of this challenge?
+// Put in code what I can say verbally. I must admit, I needed help to do this one and I got a lot of help.
+
+// •	Did you solve the problem in a new way this time?
+// I wasn’t able to do it the first time in Ruby. 
+
+// •	Was your pseudocode different from the Ruby version? What was the same and what was different?
+// Yes it was different because my idea on how to solve this problem was simpler this time.
