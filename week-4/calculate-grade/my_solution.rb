@@ -10,13 +10,14 @@
 def get_grade(x)
   if x >= 90 
     return "A"
-  elsif x >= 80 and x < 90
+  elsif x >= 80 
     return "B"
-  elsif x >= 70 and x < 80 
+  elsif x >= 70 
     return "C"
-  elsif x >= 60 and x < 70 
+  elsif x >= 60  
     return "D"
   else 
     return "F"
   end
 end  
+puts get_grade(99)
