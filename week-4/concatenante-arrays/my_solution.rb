@@ -6,13 +6,16 @@
 
 # Your Solution Below
 
+# def array_concat(array_1, array_2)
+#   concat = Array.new
+#   array_1.each { |elem| concat.push(elem) }
+#   array_2.each { |elem| concat.push(elem) }
+#   return concat
+# end
 def array_concat(array_1, array_2)
-  concat = Array.new
-  array_1.each { |elem| concat.push(elem) }
-  array_2.each { |elem| concat.push(elem) }
+  concat = array_1 + array_2
   return concat
 end
-
 
 #  concat = Array.new
 #  concat.push(array_1)
