@@ -49,7 +49,6 @@ class BingoScorer
     @board = board  
   end
 
-
 # Create a method to return BINGO when criteria met
   def check_bingo
     if horizontal? then puts "BINGO!"
@@ -59,7 +58,7 @@ class BingoScorer
     end  
   end    
 
-# Create a method to recognize an array with Xs that will print "BINGO!"
+# Create methods to recognize an array with Xs that will print "BINGO!"
   def horizontal?
     @board.each { |sub_array|
       num_x = 0
@@ -113,9 +112,6 @@ class BingoScorer
   end
 end
 
-
-
-
 horizontal = [[47, 44, 71, 8, 88],
               ['x', 'x', 'x', 'x', 'x'],
               [83, 85, 97, 89, 57],
@@ -139,7 +135,6 @@ right_to_left = [['x', 44, 71, 8, 88],
                   [75, 70, 54, 80, 'x']]  
 diagonal_1_board = BingoScorer.new(right_to_left)
 diagonal_1_board.check_bingo                     
- 
  
 left_to_right = [[47, 44, 71, 8, 'x'],
                   [22, 69, 75, 'x', 73],
